@@ -1,0 +1,129 @@
+/* Application Review Page Styles */
+
+/* Overall container */
+.application-review-container {
+    max-width: 100%;
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .main-heading {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .review-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  .review-table th,
+  .review-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .review-table th {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .review-table td {
+    background-color: #fff;
+  }
+  
+  .review-button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .review-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .selected-application-details {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .selected-application-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .selected-application-details table {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .selected-application-details table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .actions-container {
+    margin-top: 1rem;
+  }
+  
+  .approve-button,
+  .deny-button {
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .deny-button {
+    background-color: #dc3545;
+  }
+  
+  .approve-button:hover,
+  .deny-button:hover {
+    opacity: 0.9;
+  }
+  
+  @media (max-width: 768px) {
+    .main-heading {
+      font-size: 1.5rem;
+    }
+  
+    .review-button {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+    }
+  
+    .selected-application-details h2 {
+      font-size: 1.2rem;
+    }
+  
+    .selected-application-details table td {
+      padding: 0.5rem;
+    }
+  
+    .approve-button,
+    .deny-button {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.9rem;
+    }
+  }
+  
