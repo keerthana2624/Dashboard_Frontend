@@ -8,6 +8,7 @@ import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 import AdminHome from './components/AdminHomepage';
 import AdminRegister from './components/AdminRegister';
+import AdminLogin from './components/AdminLogin';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/admin/home" element={<AdminHome />} />
         <Route path="/admin/register" element={<AdminRegister />} />
+        <Route path="/admin/login" element={<AdminLogin />} />
         {/* Add an admin route if needed */}
       </Routes>
     </Router>
