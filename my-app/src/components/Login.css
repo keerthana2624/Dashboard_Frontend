@@ -1,0 +1,105 @@
+/* frontend/src/components/Login.css */
+
+/* Body styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #007bff;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  /* Container for the entire page */
+  .login-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Card styles for the login form */
+  .login-card {
+    max-width: 450px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensure padding and border are included in width calculation */
+  }
+  
+  .login-card h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Form styles */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  /* Input field styles */
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    width: calc(100% - 22px); /* Adjust width to account for padding and borders */
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.2s ease-in-out;
+    box-sizing: border-box; /* Ensure padding and border are included in width calculation */
+  }
+  
+  .login-form input[type="email"]:focus,
+  .login-form input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Helper text styles */
+  .login-helper-text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .login-helper-text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-helper-text a:hover {
+    text-decoration: underline;
+  }
+  
