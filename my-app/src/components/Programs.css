@@ -1,0 +1,102 @@
+.programs-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .program {
+    margin-bottom: 30px;
+  }
+  
+  .courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center align courses */
+  }
+  
+  .course-group {
+    width: 100%;
+  }
+  
+  .course-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center align courses in the row */
+  }
+  
+  .course-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+  }
+  
+  .course-card h4 {
+    margin: 10px 0;
+  }
+  
+  .course-card img {
+    width: 100%; /* Fill the width of the container */
+    border-radius: 10px 10px 0 0; /* Round top corners */
+  }
+  
+  .enroll-button {
+    display: block; /* Ensure the button is a block element */
+    margin: 10px auto 0; /* Center align horizontally and add top margin */
+    padding: 10px 20px; /* Increase padding for a better look */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .enroll-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  /* Search Bar and Filter Styles */
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 10px; /* Space between filters on smaller screens */
+  }
+  
+  .search-bar {
+    flex: 1 1 100%; /* Full width on smaller screens */
+    text-align: center; /* Center align the search bar */
+    margin-bottom: 10px; /* Space between search bar and filters */
+  }
+  
+  .search-bar input {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Full width */
+    max-width: 300px; /* Maximum width */
+  }
+  
+  .filter {
+    flex: 1 1 auto; /* Grow and shrink as needed */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center align the filters */
+    margin-bottom: 10px; /* Space between filters and search bar */
+  }
+  
+  .filter select,
+  .filter input[type="date"] {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Full width */
+    max-width: 200px; /* Maximum width */
+  }
