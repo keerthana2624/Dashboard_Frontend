@@ -4,7 +4,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #007bff;
+    background-color: #4184ab;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -76,7 +76,7 @@ body {
 }
 
 .registration-form button {
-    background-color: #007bff;
+    background-color: #4184ab;
     color: #fff;
     border: none;
     padding: 12px 20px;
