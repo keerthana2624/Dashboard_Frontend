@@ -68,7 +68,7 @@ const Dashboard = () => {
     <UserLayout>
       <div className="dashboard-container">
         <div className="dashboard-card">
-          <h2>Dashboard</h2>
+          <h2>Dashboards</h2>
           <p>{message}</p>
 
           {/* Display enrolled courses if available */}

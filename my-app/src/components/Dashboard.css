@@ -1,39 +1,35 @@
-/* src/components/Dashboard.css */
+html, body {
+  height: 200%;
+  margin: 10;
+}
+
 .dashboard-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
+  height: 30vh; /* Full viewport height */
 }
 
-.dashboard-container h2 {
-  font-size: 2.5em;
+.dashboard-title {
+  font-size: 10.5em;
   color: #333;
+  text-align: center; /* Center title horizontally */
+  margin: 10; /* Remove default margin */
+  position: absolute; /* Position the title at the top */
+  top: 50px; /* Adjust the top position */
+  width: 100%; /* Ensure it spans the full width */
+}
+
+.dashboard-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px; /* Space between title and card */
 }
 
 .dashboard-container p {
   font-size: 1.2em;
-  color: #666;
-  margin-top: 10px;
-}
-
-.dashboard-button {
-  border: none;
-  color: white;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1em;
-  margin: 10px;
-  border-radius: 5px;
-}
-
-.track-application-button {
-  background-color: #4CAF50; /* Green */
-}
-
-.logout-button {
-  background-color: #f44336; /* Red */
+  color: #f5f2f2;
 }
