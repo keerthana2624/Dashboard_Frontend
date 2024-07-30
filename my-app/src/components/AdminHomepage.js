@@ -10,8 +10,8 @@ const AdminHome = () => {
         <nav className="navbar">
           <h1 className="brand">Admin Portal</h1>
           <ul className="nav-links">
-            <li><Link to="/admin/home">Home</Link></li>
-            <li><Link to="/admin/register">Register</Link></li>
+            {/* <li><Link to="/admin/home">Home</Link></li> */}
+            {/* <li><Link to="/admin/register">Register</Link></li> */}
             <li><Link to="/admin/login">Login</Link></li>
           </ul>
         </nav>
@@ -19,15 +19,15 @@ const AdminHome = () => {
       <main className="hero">
         <div className="hero-content">
           <h2>Welcome to the Admin Portal</h2>
-          <p>Create courses, manage and review applications effectively!</p>
+          <p>Efficiently create, manage, and review applications for courses!</p>
           <div className="cta-buttons">
-            <Link to="/admin/register" className="cta-button">Register</Link>
+            {/* <Link to="/admin/register" className="cta-button">Register</Link> */}
             <Link to="/admin/login" className="cta-button">Login</Link>
           </div>
         </div>
       </main>
       <footer className="footer">
-        <p>&copy; 2024 Education Platform. All rights reserved.</p>
+        <p>&copy; © 2024 Education Platform. All rights are reserved.</p>
       </footer>
     </div>
   );

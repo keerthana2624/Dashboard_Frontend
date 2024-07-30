@@ -6,9 +6,10 @@ import './Homepage.css';
 const Layout = ({ children }) => {
   const location = useLocation();
 
-  // Function to determine if current route is /register
-  const isRegisterPage = () => {
-    return location.pathname === '/register';
+  // Function to determine if current route is home, register, or login page
+  const isSpecialPage = () => {
+    const path = location.pathname;
+    return path === '/' || path === '/register' || path === '/login' ||path === '/register' || path === '/admin/login';
   };
 
   return (
@@ -16,18 +17,11 @@ const Layout = ({ children }) => {
       <header className="header">
         <nav className="navbar">
           <h1 className="brand">Education Platform</h1>
-          {!isRegisterPage() && (
-            <ul className="nav-links">
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/programs">Programs</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
-            </ul>
-          )}
-          {isRegisterPage() && (
-            <ul className="nav-links">
-              <li><Link to="/">Home</Link></li>
-            </ul>
-          )}
+          <ul className="nav-links">
+            <li><Link to="/">Home</Link></li>
+            {!isSpecialPage() && <li><Link to="/programs">Programs</Link></li>}
+            {/* <li><Link to="/contact">Contact</Link></li> */}
+          </ul>
         </nav>
       </header>
       <main>

@@ -8,7 +8,7 @@ const AdminDashboard = () => {
     <AdminLayout showLogout={true} handleLogout={() => {}}>
       <div className="admin-dashboard">
         <header className="admin-header">
-          <h1 className="welcome-message">Welcome, Admin!</h1>
+          <h1 className="welcome-message">Welcome to Admin! Block</h1>
         </header>
         <div className="dashboard-sections">
           <div className="dashboard-section">

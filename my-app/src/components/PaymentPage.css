@@ -1,59 +1,58 @@
 .payment-page-container {
-    max-width: 500px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: center;
-  }
-  
-  .payment-page-container h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .payment-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .payment-input, .payment-select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-  }
-  
-  .payment-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-right: 10px;
-  }
-  
-  .payment-button:hover {
-    background-color: #45a049;
-  }
-  
-  .status-message {
-    margin-top: 15px;
-    font-size: 16px;
-    color: #333;
-  }
-  
-  .button-group {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.payment-page-container h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.payment-input, .payment-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.payment-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.payment-button:hover {
+  background-color: #45a049;
+}
+
+.status-message {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
