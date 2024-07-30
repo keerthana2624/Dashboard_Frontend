@@ -44,7 +44,7 @@ const AdminLayout = ({ children, showLogout, handleLogout }) => {
       </main>
       <footer className="footer">
         <div className="footer-content">
-          <p>&copy; 2024 Education Platform. All rights reserved.</p>
+          <p>&copy; 2024 Education Platform. All rights are reserved.</p>
         </div>
       </footer>
     </div>
