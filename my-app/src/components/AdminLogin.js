@@ -51,7 +51,7 @@ const AdminLogin = () => {
             <button type="submit">Login</button>
           </form>
           <p className="login-helper-text">
-            Don't have an account? <Link to="/admin/register">Register here</Link>
+            {/* Don't have an account? <Link to="/admin/register">Register here</Link> */}
           </p>
         </div>
       </div>
