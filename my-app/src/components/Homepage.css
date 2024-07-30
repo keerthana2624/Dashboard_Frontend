@@ -1,105 +1,155 @@
 /* src/components/Home.css */
 
 body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #f8f9fa;
-  }
-  
-  .home-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  .header {
-    background-color: #343a40;
-    color: white;
-  }
-  
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #e0f7fa;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #00695c;
+  color: white;
+  padding: 15px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.brand {
+  font-size: 1.8em;
+  color: #ffffff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #00838f, #4fb3bf);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero h2 {
+  font-size: 2.8em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.4em;
+  margin-bottom: 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cta-button {
+  font-size: 1.1em;
+  color: #4184ab;
+  background-color: #ffffff;
+  padding: 12px 25px;
+  border: 2px solid #4184ab;
+  border-radius: 25px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 10px;
+}
+
+.cta-button:hover {
+  background-color: #4184ab;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #1097c0;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  .brand {
-    font-size: 1.5em;
-  }
-  
+
   .nav-links {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+    flex-direction: column;
+    width: 100%;
   }
-  
+
   .nav-links li {
-    margin-left: 20px;
+    margin: 10px 0;
   }
-  
-  .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 1em;
-  }
-  
-  .nav-links a:hover {
-    text-decoration: underline;
-  }
-  
-  .hero {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    padding: 50px 20px;
-  }
-  
-  .hero-content {
-    max-width: 600px;
-  }
-  
+
   .hero h2 {
-    font-size: 35px;
-    margin-bottom: 25px;
+    font-size: 2.2em;
   }
-  
+
   .hero p {
     font-size: 1.2em;
-    margin-bottom: 30px;
   }
-  
+
   .cta-buttons {
-    margin-top: 20px; /* Add margin-top to create space */
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
   }
-  
+
   .cta-button {
-    font-size: 1.2em;
-    color: #007bff;
-    background-color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin: 10px; /* Add margin between buttons */
-  }
-  
-  .cta-button:hover {
-    background-color: #f8f9fa;
-  }
-  
-  .footer {
-    background-color: #343a40;
-    color: white;
+    width: 100%;
     text-align: center;
+    padding: 15px;
+    margin: 5px 0;
   }
-  
+}
+
+@media (max-width: 480px) {
+  .hero h2 {
+    font-size: 1.8em;
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+}
