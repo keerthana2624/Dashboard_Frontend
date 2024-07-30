@@ -1,43 +1,45 @@
 .admin-dashboard {
-    padding: 20px;
-  }
-  
-  .admin-header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .welcome-message {
-    margin: 0;
-    font-size: 28px;
-  }
-  
-  .dashboard-sections {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
-  
-  .dashboard-section {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 30%;
-  }
-  
-  .dashboard-link {
-    display: block;
-    margin-top: 10px;
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .dashboard-link:hover {
-    color: #007bff;
-  }
-  
+  padding: 20px;
+}
+
+.admin-header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.welcome-message {
+  margin: 0;
+  font-size: 28px;
+}
+
+.dashboard-sections {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.dashboard-section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 30%;
+}
+
+.dashboard-link {
+  display: block;
+  margin-top: 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dashboard-link:hover {
+  color: #4184ab;
+}
+
+
