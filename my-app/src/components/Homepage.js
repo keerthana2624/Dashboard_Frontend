@@ -11,8 +11,8 @@ const Home = () => {
           <h1 className="brand">Education Platform</h1>
           <ul className="nav-links">
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/programs">Programs</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            {/* <li><Link to="/programs">Programs</Link></li> */}
+            {/* <li><Link to="/contact">Contact</Link></li> */}
             {/* Add new li elements for Register and Login */}
             <li><Link to="/register">Register</Link></li>
             <li><Link to="/login">Login</Link></li>
