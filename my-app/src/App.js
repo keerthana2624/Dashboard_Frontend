@@ -16,13 +16,7 @@ import TrackApplication from './components/TrackApplication';
 import ApplicationReview from './components/ApplicationReview';
 import PaymentPage from './components/PaymentPage';
 
-
-
 const App = () => {
-  const getUserRole = () => localStorage.getItem('userRole'); // Or use context/state management
-
-  const role = getUserRole();
-  const allowedRoles = ['student', 'admin'];
   return (
     <Router>
       <Routes>
@@ -41,6 +35,7 @@ const App = () => {
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
         <Route path="/admin/dashboard/create-course" element={<CreateCourse />} />
         <Route path="/admin/dashboard/application-review" element={<ApplicationReview />} />
+        <Route path="/dashboard/make-payment/:applicationId" element={<PaymentPage />} />
       </Routes>
     </Router>
   );

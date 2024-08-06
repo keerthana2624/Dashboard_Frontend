@@ -3,12 +3,11 @@
 }
 
 .admin-header {
-  background-color: #333;
-  color: white;
+  background-color: #9fcaf5; /* Navy background */
+  color: hsl(0, 0%, 5%); /* White text */
   padding: 10px;
   text-align: center;
 }
-
 
 .welcome-message {
   margin: 0;
@@ -22,7 +21,7 @@
 }
 
 .dashboard-section {
-  background-color: #f0f0f0;
+  background-color: #FFFFFF; /* White background */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -33,13 +32,11 @@
 .dashboard-link {
   display: block;
   margin-top: 10px;
-  color: #333;
+  color: #406c98; /* Navy text */
   text-decoration: none;
   font-weight: bold;
 }
 
 .dashboard-link:hover {
-  color: #4184ab;
+  color: #001f3f; /* Darker Navy for hover effect */
 }
-
-

@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #e0f7fa;
+  background-color: #e0f7fa; /* Light Blue background */
 }
 
 .home-container {
@@ -13,9 +13,10 @@ body {
 }
 
 .header {
-  background-color: #00695c;
-  color: white;
+  background-color: #ffffff; /* White background */
+  color: #4184ab; /* Light Blue text color */
   padding: 15px 0;
+  border-bottom: 2px solid #4184ab; /* Light Blue bottom border */
 }
 
 .navbar {
@@ -27,7 +28,7 @@ body {
 
 .brand {
   font-size: 1.8em;
-  color: #ffffff;
+  color: #4184ab; /* Light Blue */
 }
 
 .nav-links {
@@ -42,7 +43,7 @@ body {
 }
 
 .nav-links a {
-  color: #ffffff;
+  color: #4184ab; /* Light Blue text color */
   text-decoration: none;
   font-size: 1.1em;
 }
@@ -56,8 +57,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #00838f, #4fb3bf);
-  color: white;
+  background: linear-gradient(135deg, #b3e5fc, #ffffff); /* Light Blue gradient */
+  color: #4184ab; /* Light Blue text color */
   text-align: center;
   padding: 60px 20px;
 }
@@ -85,10 +86,10 @@ body {
 
 .cta-button {
   font-size: 1.1em;
-  color: #4184ab;
-  background-color: #ffffff;
+  color: #ffffff; /* White text color */
+  background-color: #4184ab; /* Light Blue background */
   padding: 12px 25px;
-  border: 2px solid #4184ab;
+  border: 2px solid #4184ab; /* Light Blue border */
   border-radius: 25px;
   text-decoration: none;
   cursor: pointer;
@@ -97,15 +98,16 @@ body {
 }
 
 .cta-button:hover {
-  background-color: #4184ab;
-  color: #ffffff;
+  background-color: #357abd; /* Slightly darker Light Blue */
+  color: #ffffff; /* White text color */
 }
 
 .footer {
-  background-color: #1097c0;
-  color: white;
+  background-color: #ffffff; /* White background */
+  color: #4184ab; /* Light Blue text color */
   text-align: center;
   padding: 15px 0;
+  border-top: 2px solid #4184ab; /* Light Blue top border */
 }
 
 /* Responsive Design */

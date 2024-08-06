@@ -1,4 +1,4 @@
-llment-form-container {
+.enrollment-form-container {
   max-width: 600px;
   margin: 40px auto; /* Add spacing between header and form, and form and footer */
   padding: 20px;
@@ -12,6 +12,7 @@ llment-form-container {
   font-size: 1.8rem;
   text-align: center;
   margin-bottom: 30px;
+  color: #4184ab; /* Light Blue color */
 }
 
 .enrollment-form {
@@ -41,12 +42,12 @@ llment-form-container {
 
 .form-control:focus {
   outline: none;
-  border-color: #4184ab;
+  border-color: #4184ab; /* Light Blue color */
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
 }
 
 .btn-primary {
-  background-color: #4184ab;
+  background-color: #4184ab; /* Light Blue color */
   color: #ffffff;
   border: none;
   border-radius: 4px;
@@ -58,7 +59,7 @@ llment-form-container {
 }
 
 .btn-primary:hover {
-  background-color: #4184ab;
+  background-color: #357abd; /* Slightly darker Light Blue */
 }
 
 .alert-success {
