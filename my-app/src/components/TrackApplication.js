@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import UserLayout from './Layout';
@@ -16,12 +15,12 @@ const TrackApplication = () => {
         if (response.ok) {
           const data = await response.json();
           if (data.paymentDone) {
-            setPaymentStatus('completed');
+            setPaymentStatus('Completed');
           } else {
-            setPaymentStatus('pending');
+            setPaymentStatus('Pending');
           }
         } else {
-          setPaymentStatus('payment not found');
+          setPaymentStatus('Payment not found');
         }
       } catch (error) {
         console.error('Error fetching payment status:', error);
@@ -69,12 +68,12 @@ const TrackApplication = () => {
           </div>
         </form>
         {applicationStatus && <p className="status-message">Status: {applicationStatus}</p>}
-        {applicationStatus === 'Approved' && (
+        {applicationStatus === 'approved' && (
           <>
             {paymentStatus === 'Completed' ? (
               <p className="status-message">Payment status: {paymentStatus}</p>
             ) : (
-              <div className="Payment-link">
+              <div className="payment-link">
                 <Link to={`/dashboard/track-application/make-payment/${applicationId}`}>Make Payment</Link>
               </div>
             )}
