@@ -25,7 +25,6 @@ const CreateCourse = () => {
     e.preventDefault();
 
     try {
-      // Proceed with course creation
       const response = await fetch('http://localhost:5000/api/admin/dashboard/create-course', {
         method: 'POST',
         headers: {
@@ -56,18 +55,6 @@ const CreateCourse = () => {
     } catch (error) {
         alert('Failed to create course. Course already exists.');
         console.error('Error creating course:', error.message);
-        // Clear form fields after successful creation
-      setFormData({
-        id: '',
-        title: '',
-        description: '',
-        price: '',
-        duration: '',
-        program: '',
-        startDate: '',
-        image: ''
-      });
-
     }
   };
 
@@ -139,7 +126,6 @@ const CreateCourse = () => {
               <option value="long">Long</option>
             </select>
           </label>
-          
           <label>
             Start Date:
             <input 
